@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Realtime Image Identification</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+      </head>
+
+<body>
+  <center>
+
+<div id="heading">
+<h1>Make paragraph from input boxes using join function</h1>
+</div>
+
+<br>
+
+<hr>
+
+<div id="text_boxes_1" style="float: left;">
+
+<h4>
+
+<span>1.</span>
+<input id="1_text" type="text">
+
+<br>
+<br>
+<span>2.</span>
+<input id="2_text" type="text">
+
+<br>
+<br>
+<span>3.</span>
+<input id="3_text" type="text">
+<br>
+<br>
+
+<span>4.</span>
+<input id="4_text" type="text">
+<br>
+<br>
+<span>5.</span>
+<input id="5_text" type="text">
+<br>
+<br>
+<span>6.</span>
+<input id="6_text" type="text">
+<br>
+<br>
+<button class="btn btn-success" onclick="p_1()">Get Parragraph 1</button>
+</h4>
+<h3 style="float: left;" id="output_p1"></h3>
+</div>
+
+<div id="text_boxes_2" style="float: right;">
+
+<h4>
+
+  <span>1.</span>
+  <input id="7_text" type="text">
+  
+  <br>
+  <br>
+  <span>2.</span>
+  <input id="8_text" type="text">
+  
+  <br>
+  <br>
+  <span>3.</span>
+  <input id="9_text" type="text">
+  <br>
+  <br>
+  
+  <span>4.</span>
+  <input id="10_text" type="text">
+  <br>
+  <br>
+  <span>5.</span>
+  <input id="11_text" type="text">
+  <br>
+  <br>
+  <span>6.</span>
+  <input id="12_text" type="text">
+  <br>
+  <br>
+
+  <button class="btn btn-warning" onclick="p_2()">Get Parragraph 2</button>
+
+</h4>
+
+
+<h3 style="float: right;" id="output_p2"></h3>
+  </div>
+  
+
+<br>
+<br>
+
+
+
+  </center>
+
+
+  <script src="main.js"></script> 
+</body>
+</html>
